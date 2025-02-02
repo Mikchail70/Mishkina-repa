@@ -1,0 +1,14 @@
+- name: Установка заданных пакетов
+  hosts: sigachev
+  remote_user: ubuntu
+  become: yes  
+  tasks:
+    - name: Установить пакеты cmatrix, cowsay и sl
+      apt:
+        name:
+          - cmatrix
+          - cowsay
+          - sl
+        state: present
+        update_cache: yes
+
