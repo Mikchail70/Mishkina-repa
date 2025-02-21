@@ -1,0 +1,17 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: mysql-initdb-config
+data:
+  initdb.sql: |
+    USE mydb;
+    CREATE TABLE IF NOT EXISTS box (
+    avto VARCHAR(100) NOT NULL,
+    number VARCHAR(50) NOT NULL,
+    speed INT NOT NULL
+    );
+    
+    INSERT INTO box (avto, number, speed) VALUES
+    ('Toyota', 'c088cc77', 210),
+    ('Nissan', 'e834rx77', 240),
+    ('Geely', 'a777aa77', 220);
