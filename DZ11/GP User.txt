@@ -1,0 +1,123 @@
+Microsoft (R) Windows (R) Operating System Group Policy Result tool v2.0
+© 2016 Microsoft Corporation. All rights reserved.
+
+Created on 05.03.2025 at 14:26:56
+
+
+RSOP data for MICHAEL\UserM1 on MICHAEL-HOST : Logging Mode
+------------------------------------------------------------
+
+OS Configuration:            Member Workstation
+OS Version:                  10.0.14393
+Site Name:                   N/A
+Roaming Profile:             N/A
+Local Profile:               C:\Users\UserM1
+Connected over a slow link?: No
+
+
+USER SETTINGS
+--------------
+    CN=UserM 1. UserM1,CN=Users,DC=michael,DC=local
+    Last time Group Policy was applied: 05.03.2025 at 14:24:14
+    Group Policy was applied from:      DC-01.michael.local
+    Group Policy slow link threshold:   500 kbps
+    Domain Name:                        MICHAEL
+    Domain Type:                        Windows 2008 or later
+
+    Applied Group Policy Objects
+    -----------------------------
+        UserM_Policy
+
+    The following GPOs were not applied because they were filtered out
+    -------------------------------------------------------------------
+        Local Group Policy
+            Filtering:  Not Applied (Empty)
+
+        OperatorM_Policy
+            Filtering:  Denied (Security)
+
+    The user is a part of the following security groups
+    ---------------------------------------------------
+        Пользователи домена
+        Everyone
+        BUILTIN\Administrators
+        BUILTIN\Users
+        NT AUTHORITY\INTERACTIVE
+        CONSOLE LOGON
+        NT AUTHORITY\Authenticated Users
+        This Organization
+        LOCAL
+        UserM_Role
+        Authentication authority asserted identity
+        High Mandatory Level
+
+    The user has the following security privileges
+    ----------------------------------------------
+
+
+    Resultant Set Of Policies for User
+    -----------------------------------
+
+        Software Installations
+        ----------------------
+            N/A
+
+        Logon Scripts
+        -------------
+            N/A
+
+        Logoff Scripts
+        --------------
+            N/A
+
+        Public Key Policies
+        -------------------
+            N/A
+
+        Administrative Templates
+        ------------------------
+            GPO: UserM_Policy
+                Folder Id: Software\Microsoft\Windows\CurrentVersion\Policies\System\Wallpaper
+                Value:       67, 0, 58, 0, 92, 0, 87, 0, 105, 0, 110, 0, 100, 0, 111, 0, 119, 0, 115, 0, 92, 0, 87, 0, 101, 0, 98, 0, 92, 0, 87, 0, 97, 0, 108, 0, 108, 0, 112, 0, 97, 0, 112, 0, 101, 0, 114, 0, 92, 0, 84, 0, 104, 0, 101, 0, 109, 0, 101, 0, 49, 0, 92, 0, 105, 0, 109, 0, 103, 0, 49, 0, 46, 0, 106, 0, 112, 0, 103, 0, 0, 0
+                State:       Enabled
+
+            GPO: UserM_Policy
+                Folder Id: Software\Microsoft\Windows\CurrentVersion\Policies\System\DisableChangePassword
+                Value:       1, 0, 0, 0
+                State:       Enabled
+
+            GPO: UserM_Policy
+                Folder Id: Software\Microsoft\Windows\CurrentVersion\Policies\System\DisableRegistryTools
+                Value:       2, 0, 0, 0
+                State:       Enabled
+
+            GPO: UserM_Policy
+                Folder Id: Software\Microsoft\Windows\CurrentVersion\Policies\System\WallpaperStyle
+                Value:       52, 0, 0, 0
+                State:       Enabled
+
+        Folder Redirection
+        ------------------
+            N/A
+
+        Internet Explorer Browser User Interface
+        ----------------------------------------
+            N/A
+
+        Internet Explorer Connection
+        ----------------------------
+            N/A
+
+        Internet Explorer URLs
+        ----------------------
+            N/A
+
+        Internet Explorer Security
+        --------------------------
+            N/A
+
+        Internet Explorer Programs
+        --------------------------
+            N/A
+
+C:\Users\UserM1>

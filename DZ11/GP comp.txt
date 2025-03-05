@@ -1,0 +1,127 @@
+C:\Windows\system32>gpresult /SCOPE COMPUTER /V
+
+Microsoft (R) Windows (R) Operating System Group Policy Result tool v2.0
+© 2016 Microsoft Corporation. All rights reserved.
+
+Created on 05.03.2025 at 13:53:51
+
+
+RSOP data for MICHAEL\OperatorM2 on MICHAEL-HOST : Logging Mode
+----------------------------------------------------------------
+
+OS Configuration:            Member Workstation
+OS Version:                  10.0.14393
+Site Name:                   Default-First-Site-Name
+Roaming Profile:             N/A
+Local Profile:               C:\Users\OperatorM2
+Connected over a slow link?: No
+
+
+COMPUTER SETTINGS
+------------------
+
+    Last time Group Policy was applied: 05.03.2025 at 13:44:43
+    Group Policy was applied from:      DC-01.michael.local
+    Group Policy slow link threshold:   500 kbps
+    Domain Name:                        MICHAEL
+    Domain Type:                        WindowsNT 4
+
+    Applied Group Policy Objects
+    -----------------------------
+        UserM_Policy
+        OperatorM_Policy
+        Local Group Policy
+
+    The following GPOs were not applied because they were filtered out
+    -------------------------------------------------------------------
+        Default Domain Policy
+            Filtering:  Disabled (Link)
+
+    The computer is a part of the following security groups
+    -------------------------------------------------------
+        BUILTIN\Administrators
+        Everyone
+        BUILTIN\Users
+        NT AUTHORITY\NETWORK
+        NT AUTHORITY\Authenticated Users
+        This Organization
+        MICHAEL-HOST$
+        Компьютеры домена
+        Authentication authority asserted identity
+        System Mandatory Level
+
+    Resultant Set Of Policies for Computer
+    ---------------------------------------
+
+        Software Installations
+        ----------------------
+            N/A
+
+        Startup Scripts
+        ---------------
+            N/A
+
+        Shutdown Scripts
+        ----------------
+            N/A
+
+        Account Policies
+        ----------------
+            GPO: UserM_Policy
+                Policy:            MaximumPasswordAge
+                Computer Setting:  45
+
+            GPO: UserM_Policy
+                Policy:            MinimumPasswordAge
+                Computer Setting:  30
+
+            GPO: UserM_Policy
+                Policy:            MinimumPasswordLength
+                Computer Setting:  8
+
+        Audit Policy
+        ------------
+            N/A
+
+        User Rights
+        -----------
+            N/A
+
+        Security Options
+        ----------------
+            GPO: UserM_Policy
+                Policy:            PasswordComplexity
+                Computer Setting:  Enabled
+
+            N/A
+
+        Event Log Settings
+        ------------------
+            N/A
+
+        Restricted Groups
+        -----------------
+            N/A
+
+        System Services
+        ---------------
+            N/A
+
+        Registry Settings
+        -----------------
+            N/A
+
+        File System Settings
+        --------------------
+            N/A
+
+        Public Key Policies
+        -------------------
+            N/A
+
+        Administrative Templates
+        ------------------------
+            GPO: Local Group Policy
+                Folder Id: Software\Policies\Microsoft\Windows Defender\DisableAntiSpyware
+                Value:       1, 0, 0, 0
+                State:       Enabled
